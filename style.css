@@ -1,0 +1,60 @@
+@charset "UTF-8";
+@font-face {
+    font-family: font1;
+    src: url(fontes/Sun\ Flower.otf);
+}
+body{
+    text-align: center;
+    font-family: font1;
+    font-size: 1.3em;
+    background: #ff5353;
+}
+p{
+    font-size: 2.0em
+}
+h1{
+    font-size: 3.5em;
+    color: #650b0b;
+}
+iframe{
+    height: 550px;
+    width: 950px;
+}
+span{
+    color: #ff0000;
+    text-shadow: 10px 5px 10px #8a1f1f6e;
+}
+img{
+    border-radius: 30px;
+}
+h3{
+    font-size: 1.5em;
+}
+footer{
+    font-size: 50px;
+}
+@media all and (max-width: 760px){
+iframe{
+    height: 200px;
+    width: 350px;
+}
+img{
+    height: 260px;
+    width: 390px;
+}
+h1{
+    font-size: 1.9em
+}
+h2{
+    font-size: 1.4em;
+}
+p{
+    font-size: 1.5em;
+}
+h3{
+    font-size: 1.5em; 
+}
+footer{
+    font-size: 50px;
+}
+}
